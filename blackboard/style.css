@@ -1,0 +1,47 @@
+.head { 
+    margin: 23px;
+    position: relative;
+    top: 15px;
+}
+.outer_box { 
+    width: 100%; 
+    height: 60%; 
+    background-color: #EEF2E6;
+    
+}
+
+.inner_box { 
+    width: 21%; 
+    height: 70%; 
+    background-color: white;
+    margin: 23px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.inner_writing { 
+    width: 100%; 
+    height: 50%; 
+    background-color: green;
+}
+
+.inner_word { 
+    margin: 12px;
+}
+
+.inner_professor { 
+    position: absolute; 
+    bottom: 3px;
+    margin: 12px;
+}
+
+.image-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    width: 100%;
+    height: 50%;
+}
